@@ -1,0 +1,17 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.2">
+    <persistence-unit name="cadastroPU">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+       <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/cadastro_pessoas"/>
+            <property name="jakarta.persistence.jdbc.user" value="cadastro_user"/>
+            <property name="jakarta.persistence.jdbc.password" value="senha123"/>
+
+           <property name="jakarta.persistence.jdbc.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <property name="jakarta.persistence.schema" value="create-drop"/>
+       </properties>
+
+    </persistence-unit>
+</persistence>

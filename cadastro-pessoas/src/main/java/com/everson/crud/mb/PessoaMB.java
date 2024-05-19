@@ -3,22 +3,22 @@ package com.everson.crud.mb;
 import com.everson.crud.ejb.PessoaBean;
 import com.everson.crud.model.Pessoa;
 
-import jakarta.annotation.PostConstruct;
 
-import jakarta.faces.view.ViewScoped;
-import jakarta.inject.Inject;
-import jakarta.inject.Named;
+import javax.annotation.PostConstruct;
+
+import javax.faces.view.ViewScoped;
+
 import java.io.Serializable;
 import java.util.List;
 
-@Named
+
 @ViewScoped
 public class PessoaMB implements Serializable {
 
     private Pessoa pessoa;
     private List<Pessoa> pessoas;
 
-    @Inject
+
     private PessoaBean pessoaBean;
 
     @PostConstruct

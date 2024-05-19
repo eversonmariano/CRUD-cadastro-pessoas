@@ -5,22 +5,22 @@ package com.everson.crud.mb;
 import com.everson.crud.ejb.EnderecoBean;
 import com.everson.crud.model.Endereco;
 
-import jakarta.annotation.PostConstruct;
 
-import jakarta.faces.view.ViewScoped;
-import jakarta.inject.Inject;
-import jakarta.inject.Named;
+import javax.annotation.PostConstruct;
+
+
+import javax.faces.view.ViewScoped;
+
 import java.io.Serializable;
 import java.util.List;
 
-@Named
 @ViewScoped
 public class EnderecoMB implements Serializable {
 
     private Endereco endereco;
     private List<Endereco> enderecos;
 
-    @Inject
+
     private EnderecoBean enderecoBean;
 
     @PostConstruct

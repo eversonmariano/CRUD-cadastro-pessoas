@@ -1,7 +1,8 @@
 package com.everson.crud.model;
 
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;

@@ -1,7 +1,9 @@
 package com.everson.crud.dao;
 
 import com.everson.crud.model.Pessoa;
-import jakarta.persistence.*;
+
+import javax.persistence.*;
+
 import javax.ejb.Stateless;
 
 import java.util.List;

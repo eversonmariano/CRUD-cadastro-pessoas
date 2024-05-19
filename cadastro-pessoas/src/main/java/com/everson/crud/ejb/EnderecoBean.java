@@ -5,13 +5,13 @@ import com.everson.crud.model.Endereco;
 
 import javax.ejb.Stateless;
 
-import jakarta.inject.Inject;
+
 import java.util.List;
 
 @Stateless
 public class EnderecoBean {
 
-    @Inject
+
     private EnderecoDAO enderecoDAO;
 
     public void save(Endereco endereco) {

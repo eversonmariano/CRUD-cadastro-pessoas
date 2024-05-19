@@ -1,6 +1,7 @@
 package com.everson.crud.model;
 
-import jakarta.persistence.*;
+
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -58,7 +59,7 @@ public class Endereco implements Serializable {
         return logradouro;
     }
 
-    public void setLogradouro(String logradouro) {
+    public void setLogradouro() {
         this.logradouro = logradouro;
     }
 

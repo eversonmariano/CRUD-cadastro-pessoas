@@ -6,7 +6,7 @@ import com.everson.crud.dao.PessoaDAO;
 import com.everson.crud.model.Pessoa;
 
 import javax.ejb.Stateless;
-import jakarta.inject.Inject;
+
 
 
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
 @Stateless
 public class PessoaBean {
 
-    @Inject
+
     private PessoaDAO pessoaDAO;
 
     public void save(Pessoa pessoa) {

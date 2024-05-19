@@ -2,7 +2,7 @@ package com.everson.crud.dao;
 
 import com.everson.crud.model.Endereco;
 import javax.ejb.Stateless;
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 import java.util.List;
 

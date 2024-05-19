@@ -76,48 +76,4 @@ Optamos por uma arquitetura baseada em camadas para separar as responsabilidades
 
 
 
-### Estrutura de Pastas
-
-Estrutura de pastas do projeto:
-
-cadastro-pessoas/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── everson/
-│ │ │ │ │ ├── crud/
-│ │ │ │ │ │ ├── model/
-│ │ │ │ │ │ │ ├── Pessoa.java
-│ │ │ │ │ │ │ ├── Endereco.java
-│ │ │ │ │ │ ├── dao/
-│ │ │ │ │ │ │ ├── PessoaDAO.java
-│ │ │ │ │ │ │ ├── EnderecoDAO.java
-│ │ │ │ │ │ ├── service/
-│ │ │ │ │ │ │ ├── PessoaService.java
-│ │ │ │ │ │ │ ├── EnderecoService.java
-│ │ │ │ │ │ ├── managedBean/
-│ │ │ │ │ │ │ ├── UsuarioPessoaManagedBean.java
-│ │ │ │ │ │ │ ├── EnderecoManagedBean.java
-│ │ ├── resources/
-│ │ │ ├── META-INF/
-│ │ │ │ ├── persistence.xml
-│ │ ├── webapp/
-│ │ │ ├── WEB-INF/
-│ │ │ │ ├── web.xml
-│ │ │ ├── templates/
-│ │ │ │ ├── index.xhtml
-│ │ │ │ ├── cadastro.xhtml
-│ ├── test/
-│ │ ├── java/
-│ │ │ ├── com/
-│ │ │ │ ├── everson/
-│ │ │ │ │ ├── crud/
-│ │ │ │ │ │ ├── PessoaBeanTest.java
-│ │ │ │ │ │ ├── EnderecoBeanTest.java
-├── pom.xml
-├── README.md
-
-Autor: [Everson Mariano]
-
-
+Autor: Everson Mariano
